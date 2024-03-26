@@ -1,13 +1,46 @@
-<<<<<<< HEAD
-# React + Vite
+# Simple Tailwind React Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple todo list application built using React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Usage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# simple_tailwind_react_todList
-This project is built using React, and it helps users gain a basic understanding of Tailwind CSS.
->>>>>>> b9dc8883763c84ea0a77c3ab9ca4f59bcb6f1faf
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lscblack/simple_tailwind_react_todList.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd simple_tailwind_react_todList
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+To run the application locally, use the following command:
+
+```bash
+npm run dev
+```
+
+This will start the development server. Open [http://localhost:3000](http://localhost:3000) in your browser to view the todo list application.
+
+### Usage
+
+- To add a new todo, enter the task in the input field and press Enter or click the "Add Todo" button.
+- To mark a todo as completed, click on the checkbox next to it.
+- To delete a todo, click on the delete icon next to it.
+
+
+### Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues for any bugs or feature requests.
+
+### Author
+Loue Sauveur Christian
