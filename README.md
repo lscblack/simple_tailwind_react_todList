@@ -88,6 +88,23 @@ The Simple Tailwind React Todo List project provides a straightforward and intui
 If you choose to use my codes, please do so at your own risk. Ensure you have Docker installed on your system before running the configuration script.
 
 
+## Configuration 
+#### your vite.config.js should be like this
+``
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  preview: {
+    host: true,
+    port: 8080
+  }
+});
+
+``
+
 ---
 # Happy coding
 [live demo](https://transcendent-paletas-f74585.netlify.app/) 
