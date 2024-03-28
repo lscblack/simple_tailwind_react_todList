@@ -17,7 +17,7 @@ const ViewTodo = ({ todos, Setodos }) => {
         Setodos(newData)
     }
     return <>
-        <div className="columns-3 items-center cursor-pointer sticky top-0 text-center bg-slate-700 text-white p-3 h-14 rounded-t-md">
+        <div className="columns-3 items-center cursor-pointer  top-0 text-center bg-slate-700 text-white p-3 h-14 rounded-t-md">
             <div className="text-left w-full">Todo Name</div>
             <div className="text-left w-full">Todo Status</div>
             <div className="text-right w-full">Todo Actions</div>
