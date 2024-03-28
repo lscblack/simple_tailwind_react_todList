@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#  build app
+npm run build
+
 # Docker login
 docker login
 
