@@ -90,7 +90,7 @@ If you choose to use my codes, please do so at your own risk. Ensure you have Do
 
 ## Configuration 
 #### your vite.config.js should be like this
-``
+```
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -103,7 +103,7 @@ export default defineConfig({
   }
 });
 
-``
+```
 
 ---
 # Happy coding
