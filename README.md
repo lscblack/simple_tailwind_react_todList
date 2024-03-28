@@ -43,4 +43,4 @@ This will start the development server. Open [http://localhost:3000](http://loca
 Contributions are welcome! Please feel free to submit pull requests or open issues for any bugs or feature requests.
 
 ### Author
-Loue Sauveur Christian
+The project is authored by Christian,Vanessa,nickitta,daniel,joyce,kanyambo,grace,gabriel,
