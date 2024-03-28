@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-const AddTodo = ({ todos, SetTodos }) => {
+const AddTodo = ({ todos, Setodos }) => {
     const [todo, setTodo] = useState("");
 
     const addTodoTodoList = () => {
         if (todo.trim() !== "") {
-            SetTodos([...todos, { id: todos.length + 1, todoName: todo, todoStatus: false }]);
+            Setodos([...todos, { id: todos.length + 1, todoName: todo, todoStatus: false }]);
             setTodo("");
         } else {
             alert("Can't save empty todos!");
