@@ -1,4 +1,4 @@
-![Screenshot_2024-03-28_21_07_25](https://github.com/lscblack/simple_tailwind_react_todList/assets/141139366/d582f774-3be9-4d01-8f59-1a89f323596e)**Docker Review: Simple Tailwind React Todo List**
+**Docker Review: Simple Tailwind React Todo List**
 
 **Project Overview:**
 The Simple Tailwind React Todo List is a minimalist todo list application built using React and styled with Tailwind CSS and Material UI. It enables users to manage tasks by adding, marking as complete, and deleting todos.
