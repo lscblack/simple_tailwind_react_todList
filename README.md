@@ -35,6 +35,9 @@ The Simple Tailwind React Todo List is a minimalist todo list application built 
    - Search for todos.
    - Filter todos.
    - View total todos.
+  
+     **Download it by your self**
+     [Dcoker Hub Lscblack](https://hub.docker.com/repository/docker/lscblack/group_assignment-todo-list/general)
 
 4. **Use Docker Image To Test:**
    - Pull the Docker image from the repository:
@@ -47,7 +50,7 @@ The Simple Tailwind React Todo List is a minimalist todo list application built 
      ```
    - Access the application at [http://localhost:8080](http://localhost:8080) in your web browser.
 
-**Review:**
+**OR:**
 If you wish to configure the Docker settings yourself, follow these steps:
 
 ## Usage
