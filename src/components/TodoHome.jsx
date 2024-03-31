@@ -30,21 +30,23 @@ const TodoHome = () => {
             <div className="h-screen w-full flex justify-center items-center">
                 <div className="flex flex-col items-center">
                     <Load></Load>
-                    <center className="text-white font-normal animate-bounce">Welcome to Our Todo List</center>
-                    <center className="text-white font-normal pt-10">Developed By {data}</center>
+                    <center className="text-gray-500 font-normal animate-bounce">Manage Your Daily Actives</center>
+                    <center className="text-gray-500 font-normal pt-10">Developed By {data}</center>
                 </div>
             </div>
             :
             <>
                 {/* #Navbar */}
-                <NavBar></NavBar>
-                <div className="max-md:h-screen mb-32">
+                <div className="sticky top-0">
+                    <NavBar></NavBar>
+                </div>
+                <div className="-mt-6">
 
-                    <div className="flex gap-2  p-2 max-md:flex-wrap w-4/5 m-auto max-lg:w-full max-sm:w-11/12 ">
+                    <div className="flex gap-2  p-2 max-md:flex-wrap w-4/5 m-auto max-lg:w-full ">
                         <div className="w-full">
                             <AddTodo todos={todos} Setodos={Setodos}></AddTodo>
                         </div>
-                        <div className="w-full max-sm:mt-10 rounded-b-md bg-slate-200 rounded-t-lg">
+                        <div className="w-full max-sm:mt-10 rounded-b-md bg-white rounded-t-lg">
                             <ViewTodo todos={todos} Setodos={Setodos}></ViewTodo>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 const NavBar = () => {
     return (<>
 
-        <div className="p-5 font-medium text-white bg-slate-700">
+        <div className="p-5 font-medium text-gray-700 bg-white">
             <h1>
                 Todo App In React
             </h1>

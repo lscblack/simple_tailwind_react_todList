@@ -7,7 +7,7 @@
 }
 
 body{
-  background: rgb(7, 32, 58);
+  background: rgb(233, 235, 236);
 }
 .h-500{
   height: 500px;
@@ -25,8 +25,8 @@ body{
   top: 28px;
   left: 28px;
   border-radius: 50%;
-  border: 16px solid #000;
-  border-color: #e15b64 transparent #e15b64 transparent;
+  border: 16px solid #9fb6f8;
+  border-color: #6996f8 transparent #4ca5f8 transparent;
   animation: ldio-66uw7ivcag8 1s linear infinite;
 }
 
@@ -38,7 +38,7 @@ body{
   animation: ldio-66uw7ivcag8 1s linear infinite reverse;
 }
 .ldio-66uw7ivcag8 > div:nth-child(2) {
-  border-color: transparent #f8b26a transparent #f8b26a
+  border-color: transparent #69cdf596 transparent #68a2fa
 }
 .ldio-66uw7ivcag8 > div:nth-child(3) { border-color: transparent }
 .ldio-66uw7ivcag8 > div:nth-child(3) div {
@@ -55,14 +55,14 @@ body{
   height: 16px;
   top: -16px;
   left: 48px;
-  background: #e15b64;
+  background: #81adff;
   border-radius: 50%;
-  box-shadow: 0 128px 0 0 #e15b64;
+  box-shadow: 0 128px 0 0 #a4c1ff;
 }
 .ldio-66uw7ivcag8 > div:nth-child(3) div:after {
   left: -16px;
   top: 48px;
-  box-shadow: 128px 0 0 0 #e15b64;
+  box-shadow: 128px 0 0 0 #8088f0;
 }
 
 .ldio-66uw7ivcag8 > div:nth-child(4) { border-color: transparent; }
@@ -80,14 +80,14 @@ body{
   height: 16px;
   top: -16px;
   left: 30px;
-  background: #f8b26a;
+  background: #7190f5;
   border-radius: 50%;
-  box-shadow: 0 92px 0 0 #f8b26a;
+  box-shadow: 0 92px 0 0 #416af0;
 }
 .ldio-66uw7ivcag8 > div:nth-child(4) div:after {
   left: -16px;
   top: 30px;
-  box-shadow: 92px 0 0 0 #f8b26a;
+  box-shadow: 92px 0 0 0 #437dfa;
 }
 .loadingio-spinner-double-ring-2kyboq04ko {
   width: 200px;
@@ -102,7 +102,7 @@ body{
   position: relative;
   transform: translateZ(0) scale(1);
   backface-visibility: hidden;
-  transform-origin: 0 0; /* see note above */
+  transform-origin: 0 0; 
 }
 .ldio-66uw7ivcag8 div { box-sizing: content-box; }
 
