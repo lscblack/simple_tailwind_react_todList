@@ -14,11 +14,19 @@ const AddTodo = ({ todos, Setodos }) => {
             Setodos([...todos, { id: todos.length + 1, todoName: todo, todoStatus: false }]);
             setTodo("");
             setOpen(true);
+            setTimeout(() => {
+                setOpen(false);
+
+            }, 2000)
             setSev("success")
 
             setAlertMessage("Added your todo");
         } else {
             setOpen(true);
+            setTimeout(() => {
+                setOpen(false);
+
+            }, 2000)
             setSev("error")
             setAlertMessage("Can't save empty todos!");
         }
@@ -35,7 +43,7 @@ const AddTodo = ({ todos, Setodos }) => {
         <div className="m-auto rounded-md min-h-80 bg-white p-4 w-full">
 
 
-            <Snackbar open={open}   autoHideDuration={1200} onClose={()=>handleClose}>
+            <Snackbar open={open} autoHideDuration={1200} onClose={() => handleClose}>
                 <Alert
                     onClose={handleClose}
                     anchorOrigin={{ vertical: 'middle', horizontal: 'right' }}
@@ -60,11 +68,11 @@ const AddTodo = ({ todos, Setodos }) => {
                 variant="outlined"
             />
 
-            <div className="mt-4">
+            <div className="mt-4 flex">
                 <Button
                     onClick={addTodoTodoList}
                     size="large"
-                    className="w-full mt-10"
+                    className="w-full  mt-10"
                     variant="contained"
                 >
                     Add Todo

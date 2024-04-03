@@ -23,4 +23,4 @@ docker pull lscblack/group_assignment-todo-list:latest
 
 # Run Docker container with pulled image
 docker run -p 8080:8080 lscblack/group_assignment-todo-list:latest
-# By Chriss Copy My Code At Your Own Risk
+
